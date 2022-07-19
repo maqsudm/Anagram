@@ -1,5 +1,10 @@
 import scala.io.Source
 
+/**
+ * I load the dictuionary file and check for anagrams for the given word.
+ *
+ * @param resourceLocation
+ */
 class AnagramService(val resourceLocation: String) {
 
   /**
@@ -17,8 +22,8 @@ class AnagramService(val resourceLocation: String) {
   }
 
   /**
-   * We could pass this as a value when a proper IoC framework is added as dependecncy
-   * for the sake of this test I am hardcoding it for time constraints.
+   * I load the dictionary file from the pre configured location
+   *
    * @return List[String]
    */
   private def loadFileFromResources():List[String] ={
