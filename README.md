@@ -1,5 +1,7 @@
 # boaanagramtest
 
+The application takes a word as part of a commandline argument and prints out all the anagrams against the stored dictionary file.
+
 To run this application, run the following command from the project root directory and follow the instructions
 
 sbt run src/main/scala/AnagramChecker.scala
