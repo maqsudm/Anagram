@@ -1,5 +1,5 @@
-import java.util.Scanner
-import scala.io.{Source, StdIn}
+
+import scala.io.StdIn
 
 object AnagramChecker {
 
