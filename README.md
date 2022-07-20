@@ -10,4 +10,4 @@ To run the tests use the command from the root directory
 
 sbt test
 
-NOTE: When you run sbt run, its throwing an error, I did not spend more time to fix that due to time constraints but the functionality is there with the tests as I have to get into the nitty gritty of sbt build dependencies.
+NOTE: When you run sbt run, its throwing an error, I did not spend more time to fix that due to time constraints but the functionality is there with the tests.
