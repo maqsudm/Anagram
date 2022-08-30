@@ -1,4 +1,4 @@
-# boaanagramtest
+# anagramchecker
 
 The application takes an argument of type String as part of a commandline argument and prints out all the anagrams against the stored dictionary file.
 
